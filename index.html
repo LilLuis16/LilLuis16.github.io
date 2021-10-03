@@ -343,8 +343,32 @@ Como el municipio es multiétnico (sumus, miskitus, creoles y mestizos), cada et
 
       <!-- Modal body -->
       <div class="modal-body">
-      <img src="https://th.bing.com/th/id/R.1959b80bf865ed9ead4587faa3185014?rik=I%2bdek1GOWnd4kQ&pid=ImgRaw&r=0" width="460px" alt="">
-      <p>este sitio es con fines de aumentar el deporte y que los resultados de juegos sean mas accesibles y rapidos para el ususario</p>
+     <form action="correos.php" method="POST">
+        <div class="form">
+            <div class="grupo">
+              <label>Nombre</label>
+                <input type="text" name="" id="" required><span class="barra"></span>
+                
+            </div>
+            <div class="grupo">
+               <label>Email</label>
+                <input type="email" name="" id="" required><span class="barra"></span>
+               
+            </div>
+            <div class="grupo">
+              <label>Edad</label>
+                <input type="number" name="" id="" required><span class="barra"></span>
+                
+            </div>
+            <div class="grupo">
+              <label>Mensaje</label>
+                <textarea name="" id="" rows="3" required></textarea><span class="barra"></span>
+                
+            </div>
+            <button type="submit">enviar</button>
+        </div>
+    </form>
+
       </div>
 
       <!-- Modal footer -->
